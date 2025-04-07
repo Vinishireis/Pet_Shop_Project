@@ -2390,6 +2390,16 @@ margin-bottom: 30px;
     border-radius: 50%
 }
 
+.go-top.around {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+    visibility: visible;
+    border: 2px solid var(--main-color); 
+    border-radius: 50%;
+}
+
 .go-top.active {
     top: 98%;
     -webkit-transform: translateY(-98%);
