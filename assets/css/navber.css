@@ -834,7 +834,7 @@
 
 .search-overlay .search-overlay-layer:nth-child(1) {
     left: 0;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.01);
     -webkit-transition: all .3s ease-in-out 0s;
     transition: all .3s ease-in-out 0s
 }
